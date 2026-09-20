@@ -154,7 +154,7 @@ Production web app for **temporary, single-use AI chat sessions**. Admins define
 </td>
 <td valign="top">
 
-The pipeline diagrammed above. Scheduled n8n workflows pull Meta Insights at campaign/ad-set/ad level — handling pagination, backoff and token refresh — compute derived metrics and creative-fatigue signals, join leads against CRM outcomes in SQL, then hand a pre-triaged digest to Gemini for a structured verdict with reasoning. Every response is validated against a JSON schema and re-prompted on failure before anything reaches the team.
+A closed daily loop over paid social. Scheduled n8n workflows pull Meta Insights at campaign/ad-set/ad level — handling pagination, backoff and token refresh — compute derived metrics and creative-fatigue signals, join leads against CRM outcomes in SQL, then hand a pre-triaged digest to Gemini for a structured verdict with reasoning. Every response is validated against a JSON schema and re-prompted on failure before anything reaches the team — and spend is measured against real enrolments, not platform-reported conversions.
 
 </td>
 <td valign="top">
