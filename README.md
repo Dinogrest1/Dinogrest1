@@ -232,8 +232,7 @@ Self-hosted creative production on open-weight models. Custom ComfyUI graphs for
 <a href="https://t.me/YOUR-TELEGRAM"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
 <a href="mailto:YOUR-EMAIL"><img src="https://img.shields.io/badge/Email-1F3A63?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email" /></a>
 
-<br/><br/>
-
+<br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4A90D9,50:1F3A63,100:0F2027&height=110&section=footer" width="100%" alt="" />
 
