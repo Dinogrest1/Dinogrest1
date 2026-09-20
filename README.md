@@ -235,7 +235,14 @@ Self-hosted creative production on open-weight models. Custom ComfyUI graphs for
 
 <br/>
 
-<!-- snake animation — generated nightly by .github/workflows/snake.yml into the `output` branch -->
+<!--
+  ┌─────────────────────────────────────────────────────────────────────┐
+  │ SNAKE ANIMATION — розкоментуй цей блок ПІСЛЯ того, як додаси        │
+  │ .github/workflows/snake.yml і один раз запустиш його вручну         │
+  │ (Actions → "Generate snake animation" → Run workflow).              │
+  │ Воркфлоу створює гілку `output` з готовими SVG.                     │
+  └─────────────────────────────────────────────────────────────────────┘
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dinogrest1/Dinogrest1/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Dinogrest1/Dinogrest1/output/github-snake.svg" />
@@ -243,6 +250,7 @@ Self-hosted creative production on open-weight models. Custom ComfyUI graphs for
 </picture>
 
 <br/><br/>
+-->
 
 <img src="https://github-profile-trophy.vercel.app/?username=Dinogrest1&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&margin-h=6&column=6&title=Commits,Repositories,Followers,Experience,MultiLanguage,Stars" alt="Trophies" />
 
