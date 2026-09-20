@@ -99,7 +99,7 @@
       </text>
       <rect class="cursor" x="450" y="97" width="4" height="34" fill="#7FD1FF"/>
 
-      <rect class="tagline" x="0" y="140" width="0" height="2.5" rx="1.25" fill="url(#accent)">
+      <rect class="tagline" x="0" y="140" width="392" height="2.5" rx="1.25" fill="url(#accent)">
         <animate attributeName="width" from="0" to="392" dur="1s" begin="0.9s" fill="freeze"/>
       </rect>
 

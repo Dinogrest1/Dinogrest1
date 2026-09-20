@@ -10,7 +10,6 @@
 <br/>
 
 <img src="https://img.shields.io/badge/Kyiv-Ukraine-0F2027?style=for-the-badge&logo=googlemaps&logoColor=7FD1FF&labelColor=0D1117" alt="Kyiv, Ukraine" />
-<img src="https://img.shields.io/badge/AI_Engineer-Kyiv--Mohyla_Business_School-1F3A63?style=for-the-badge&logo=openai&logoColor=7FD1FF&labelColor=0D1117" alt="AI Engineer at KMBS" />
 <img src="https://img.shields.io/badge/MSc-AI_in_Biomedical_Systems_·_KPI-4A90D9?style=for-the-badge&logo=googlescholar&logoColor=white&labelColor=0D1117" alt="MSc at KPI" />
 
 <img src="https://raw.githubusercontent.com/Dinogrest1/Dinogrest1/main/assets/divider.svg" width="100%" alt="" />
@@ -34,20 +33,6 @@ languages: [Ukrainian (native), English (B2)]
 ```
 
 I build **end-to-end automation** — the kind where nobody opens a dashboard anymore. Most of my work joins three things that usually live apart: **LLM APIs**, **external platforms** (ad networks, messengers, storage) and **internal CRM/SQL data**. Right now that means a closed marketing loop: a system that diagnoses ad performance, and a generative pipeline that produces the next batch of creatives from that diagnosis.
-
-<img src="https://raw.githubusercontent.com/Dinogrest1/Dinogrest1/main/assets/divider.svg" width="100%" alt="" />
-
-<!-- ════════════════════════════ PIPELINE ════════════════════════════ -->
-
-## `$ cat architecture.md`
-
-A system I run in production — data in on the left, fresh creatives back into rotation on the right:
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/Dinogrest1/Dinogrest1/main/assets/pipeline.svg" width="100%" alt="Closed marketing loop: Meta Ads API and internal CRM feed an n8n pipeline, Gemini reasons over it with schema validation and retry, a verdict report reaches the team, and ComfyUI regenerates fatigued creatives back into rotation." />
-</div>
-
-> Ad spend gets measured against **real enrolments**, not platform-reported conversions — and a creative that burns out triggers its own replacement instead of waiting for a design request.
 
 <img src="https://raw.githubusercontent.com/Dinogrest1/Dinogrest1/main/assets/divider.svg" width="100%" alt="" />
 
@@ -106,17 +91,6 @@ A system I run in production — data in on the left, fresh creatives back into 
 <!-- ════════════════════════════ PROJECTS ════════════════════════════ -->
 
 ## `$ git log --oneline projects`
-
-<div align="center">
-
-<a href="https://github.com/Dinogrest1/mediation_chat">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Dinogrest1&repo=mediation_chat&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7FD1FF&icon_color=4A90D9&text_color=c9d1d9&border_radius=10" alt="mediation_chat" />
-</a>
-<a href="https://github.com/Dinogrest1/profile_analyzer">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Dinogrest1&repo=profile_analyzer&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7FD1FF&icon_color=4A90D9&text_color=c9d1d9&border_radius=10" alt="profile_analyzer" />
-</a>
-
-</div>
 
 <table>
 <tr>
@@ -222,22 +196,15 @@ Self-hosted creative production on open-weight models. Custom ComfyUI graphs for
 
 <!-- ════════════════════════════ STATS ════════════════════════════ -->
 
-## `$ gh stats --live`
+## `$ gh repo list`
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Dinogrest1&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7FD1FF&icon_color=4A90D9&text_color=c9d1d9&include_all_commits=true&rank_icon=github&border_radius=10" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dinogrest1&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7FD1FF&text_color=c9d1d9&langs_count=8&border_radius=10" alt="Top languages" />
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Dinogrest1&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=7FD1FF&line=4A90D9&point=FFFFFF&area=true&area_color=1F3A63&radius=10&custom_title=Contribution%20activity" width="98%" alt="Contribution activity graph" />
-
-<br/>
+<img src="https://raw.githubusercontent.com/Dinogrest1/Dinogrest1/main/assets/stats.svg" width="100%" alt="Repository composition: 14 repositories, 10 with a primary language, led by TypeScript and HTML." />
 
 <!--
   ┌─────────────────────────────────────────────────────────────────────┐
-  │ SNAKE ANIMATION — розкоментуй цей блок ПІСЛЯ того, як додаси        │
+  │ SNAKE ANIMATION — розкоментуй ПІСЛЯ того, як додаси                 │
   │ .github/workflows/snake.yml і один раз запустиш його вручну         │
   │ (Actions → "Generate snake animation" → Run workflow).              │
   │ Воркфлоу створює гілку `output` з готовими SVG.                     │
@@ -248,11 +215,7 @@ Self-hosted creative production on open-weight models. Custom ComfyUI graphs for
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Dinogrest1/Dinogrest1/output/github-snake.svg" />
   <img src="https://raw.githubusercontent.com/Dinogrest1/Dinogrest1/output/github-snake.svg" width="98%" alt="Snake eating the contribution graph" />
 </picture>
-
-<br/><br/>
 -->
-
-<img src="https://github-profile-trophy.vercel.app/?username=Dinogrest1&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&margin-h=6&column=6&title=Commits,Repositories,Followers,Experience,MultiLanguage,Stars" alt="Trophies" />
 
 </div>
 
@@ -271,9 +234,6 @@ Self-hosted creative production on open-weight models. Custom ComfyUI graphs for
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=Dinogrest1&label=profile%20views&color=4A90D9&style=flat-square" alt="Profile views" />
-
-<br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4A90D9,50:1F3A63,100:0F2027&height=110&section=footer" width="100%" alt="" />
 
