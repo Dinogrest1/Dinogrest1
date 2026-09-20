@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="14" viewBox="0 0 1000 14" fill="none" role="presentation">
+  <defs>
+    <linearGradient id="dbase" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#4A90D9" stop-opacity="0"/>
+      <stop offset="18%"  stop-color="#4A90D9" stop-opacity="0.55"/>
+      <stop offset="50%"  stop-color="#7FD1FF" stop-opacity="0.8"/>
+      <stop offset="82%"  stop-color="#4A90D9" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#4A90D9" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="dglint" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#BFE6FF" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#BFE6FF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="6" width="1000" height="2" rx="1" fill="url(#dbase)"/>
+
+  <rect x="-260" y="5" width="260" height="4" rx="2" fill="url(#dglint)">
+    <animate attributeName="x" from="-260" to="1000" dur="3.6s" repeatCount="indefinite"/>
+  </rect>
+
+  <circle cy="7" r="3" fill="#7FD1FF">
+    <animate attributeName="cx" values="120;880;120" dur="7.2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="3.6s" repeatCount="indefinite"/>
+  </circle>
+</svg>
