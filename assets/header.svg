@@ -1,157 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" fill="none" role="img" aria-label="Bogdan Tovstenko — AI Engineer, Automation, Generative AI">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="230" viewBox="0 0 1000 230" fill="none" role="img" aria-label="Bogdan Tovstenko - AI Engineer, Automation Specialist, Generative AI">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#050912">
-        <animate attributeName="stop-color" values="#050912;#0b1b2e;#050912" dur="12s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="55%" stop-color="#0F2027">
-        <animate attributeName="stop-color" values="#0F2027;#16314f;#0F2027" dur="12s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" stop-color="#16314f">
-        <animate attributeName="stop-color" values="#16314f;#1F3A63;#16314f" dur="12s" repeatCount="indefinite"/>
-      </stop>
-    </linearGradient>
-
-    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#4A90D9" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#7FD1FF" stop-opacity="0.75"/>
-      <stop offset="100%" stop-color="#4A90D9" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#070d18"/>
+      <stop offset="55%" stop-color="#0F2027"/>
+      <stop offset="100%" stop-color="#1a3556"/>
     </linearGradient>
 
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#4A90D9"/>
-      <stop offset="50%" stop-color="#7FD1FF"/>
-      <stop offset="100%" stop-color="#4A90D9"/>
+      <stop offset="60%" stop-color="#7FD1FF"/>
+      <stop offset="100%" stop-color="#4A90D9" stop-opacity="0.25"/>
     </linearGradient>
 
     <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0%" stop-color="#4A90D9" stop-opacity="0.38"/>
+      <stop offset="0%" stop-color="#4A90D9" stop-opacity="0.22"/>
       <stop offset="100%" stop-color="#4A90D9" stop-opacity="0"/>
     </radialGradient>
 
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#4A90D9" stroke-width="0.5" stroke-opacity="0.13"/>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#4A90D9" stroke-width="0.5" stroke-opacity="0.10"/>
     </pattern>
 
-    <clipPath id="frame"><rect width="1000" height="260" rx="14"/></clipPath>
+    <clipPath id="frame"><rect width="1000" height="230" rx="14"/></clipPath>
 
     <style>
       .mono { font-family: 'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace; }
       .sans { font-family: 'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif; }
-
-      @keyframes riseIn { from { opacity:0; transform: translateY(14px);} to { opacity:1; transform: translateY(0);} }
-      @keyframes fadeIn { from { opacity:0;} to { opacity:1;} }
-      @keyframes blink  { 0%,45% {opacity:1;} 50%,95% {opacity:0;} 100% {opacity:1;} }
-      @keyframes drift  { from { transform: translateY(0);} to { transform: translateY(-40px);} }
-      @keyframes pulse  { 0%,100% { opacity:.35; } 50% { opacity:.9; } }
-
-      .name     { animation: riseIn .9s cubic-bezier(.2,.7,.3,1) both .15s; }
-      .role     { animation: riseIn .9s cubic-bezier(.2,.7,.3,1) both .45s; }
-      .tagline  { animation: fadeIn 1s ease both .85s; }
-      .chips    { animation: riseIn .9s cubic-bezier(.2,.7,.3,1) both .65s; }
-      .cursor   { animation: blink 1.1s step-end infinite; }
-      .gridmove { animation: drift 4s linear infinite; }
-      .dot      { animation: pulse 2.4s ease-in-out infinite; }
     </style>
   </defs>
 
   <g clip-path="url(#frame)">
-    <rect width="1000" height="260" fill="url(#bg)"/>
+    <rect width="1000" height="230" fill="url(#bg)"/>
+    <rect width="1000" height="230" fill="url(#grid)"/>
 
-    <!-- drifting grid -->
-    <g class="gridmove" opacity="0.9">
-      <rect x="0" y="-40" width="1000" height="340" fill="url(#grid)"/>
-    </g>
+    <circle cx="820" cy="70" r="230" fill="url(#glow)"/>
 
-    <!-- ambient glows -->
-    <circle cx="150" cy="60" r="200" fill="url(#glow)">
-      <animate attributeName="cy" values="60;110;60" dur="9s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="880" cy="210" r="230" fill="url(#glow)">
-      <animate attributeName="cx" values="880;790;880" dur="11s" repeatCount="indefinite"/>
-    </circle>
-
-    <!-- floating particles -->
-    <g fill="#7FD1FF">
-      <circle class="dot" cx="80"  cy="200" r="2">   <animate attributeName="cy" values="200;170;200" dur="6s"  repeatCount="indefinite"/></circle>
-      <circle class="dot" cx="210" cy="48"  r="1.6"> <animate attributeName="cy" values="48;74;48"    dur="7.5s" repeatCount="indefinite"/></circle>
-      <circle class="dot" cx="332" cy="224" r="2.2"> <animate attributeName="cy" values="224;196;224" dur="8.5s" repeatCount="indefinite"/></circle>
-      <circle class="dot" cx="470" cy="36"  r="1.4"> <animate attributeName="cy" values="36;60;36"    dur="6.5s" repeatCount="indefinite"/></circle>
-      <circle class="dot" cx="612" cy="214" r="2">   <animate attributeName="cy" values="214;186;214" dur="9s"  repeatCount="indefinite"/></circle>
-      <circle class="dot" cx="742" cy="52"  r="1.8"> <animate attributeName="cy" values="52;80;52"    dur="7s"  repeatCount="indefinite"/></circle>
-      <circle class="dot" cx="905" cy="120" r="1.5"> <animate attributeName="cx" values="905;930;905" dur="8s"  repeatCount="indefinite"/></circle>
-      <circle class="dot" cx="560" cy="130" r="1.3"> <animate attributeName="cy" values="130;104;130" dur="10s" repeatCount="indefinite"/></circle>
-    </g>
-
-    <!-- light sweep across the whole banner -->
-    <rect x="-420" y="0" width="420" height="260" fill="url(#sweep)" opacity="0.28">
-      <animate attributeName="x" from="-420" to="1000" dur="6s" begin="1.2s" repeatCount="indefinite"/>
-    </rect>
-
-    <!-- content -->
     <g transform="translate(56, 0)">
-      <text class="mono role" x="0" y="66" font-size="15" fill="#7FD1FF" letter-spacing="3.4" opacity="0.95">
-        <tspan fill="#4A90D9">$</tspan> whoami
-      </text>
-
-      <text class="sans name" x="0" y="124" font-size="49" font-weight="700" fill="#FFFFFF" letter-spacing="0.6">
+      <text class="sans" x="0" y="96" font-size="48" font-weight="700" fill="#FFFFFF" letter-spacing="0.6">
         Bogdan Tovstenko
       </text>
-      <rect class="cursor" x="450" y="97" width="4" height="34" fill="#7FD1FF"/>
 
-      <rect class="tagline" x="0" y="140" width="392" height="2.5" rx="1.25" fill="url(#accent)">
-        <animate attributeName="width" from="0" to="392" dur="1s" begin="0.9s" fill="freeze"/>
-      </rect>
+      <rect x="0" y="114" width="392" height="2.5" rx="1.25" fill="url(#accent)"/>
 
-      <text class="sans tagline" x="0" y="176" font-size="18" fill="#C9D9EC" letter-spacing="0.4">
-        AI Engineer <tspan fill="#4A90D9">·</tspan> Automation Specialist <tspan fill="#4A90D9">·</tspan> Generative AI
+      <text class="sans" x="0" y="150" font-size="18" fill="#C9D9EC" letter-spacing="0.4">
+        AI Engineer <tspan fill="#4A90D9">&#183;</tspan> Automation Specialist <tspan fill="#4A90D9">&#183;</tspan> Generative AI
       </text>
 
-      <!-- chips -->
-      <g transform="translate(0,200)">
-       <g class="chips">
+      <g transform="translate(0,174)">
         <g>
-          <rect width="116" height="28" rx="14" fill="#4A90D9" fill-opacity="0.13" stroke="#4A90D9" stroke-opacity="0.45"/>
-          <text class="mono" x="58" y="18.5" font-size="12" fill="#9EC9F0" text-anchor="middle" letter-spacing="0.6">Python · n8n</text>
+          <rect width="116" height="28" rx="14" fill="#4A90D9" fill-opacity="0.12" stroke="#4A90D9" stroke-opacity="0.40"/>
+          <text class="mono" x="58" y="18.5" font-size="12" fill="#9EC9F0" text-anchor="middle" letter-spacing="0.6">Python &#183; n8n</text>
         </g>
         <g transform="translate(128,0)">
-          <rect width="128" height="28" rx="14" fill="#4A90D9" fill-opacity="0.13" stroke="#4A90D9" stroke-opacity="0.45"/>
+          <rect width="128" height="28" rx="14" fill="#4A90D9" fill-opacity="0.12" stroke="#4A90D9" stroke-opacity="0.40"/>
           <text class="mono" x="64" y="18.5" font-size="12" fill="#9EC9F0" text-anchor="middle" letter-spacing="0.6">LLM pipelines</text>
         </g>
         <g transform="translate(268,0)">
-          <rect width="112" height="28" rx="14" fill="#4A90D9" fill-opacity="0.13" stroke="#4A90D9" stroke-opacity="0.45"/>
+          <rect width="112" height="28" rx="14" fill="#4A90D9" fill-opacity="0.12" stroke="#4A90D9" stroke-opacity="0.40"/>
           <text class="mono" x="56" y="18.5" font-size="12" fill="#9EC9F0" text-anchor="middle" letter-spacing="0.6">ComfyUI</text>
         </g>
         <g transform="translate(392,0)">
-          <rect width="150" height="28" rx="14" fill="#4A90D9" fill-opacity="0.13" stroke="#4A90D9" stroke-opacity="0.45"/>
+          <rect width="150" height="28" rx="14" fill="#4A90D9" fill-opacity="0.12" stroke="#4A90D9" stroke-opacity="0.40"/>
           <text class="mono" x="75" y="18.5" font-size="12" fill="#9EC9F0" text-anchor="middle" letter-spacing="0.6">Meta Ads API</text>
         </g>
-       </g>
       </g>
     </g>
 
-    <!-- animated waveform on the right -->
-    <g transform="translate(700,130)" opacity="0.85">
-      <g fill="#4A90D9">
-        <rect x="0"   y="-10" width="5" height="20" rx="2.5"><animate attributeName="height" values="20;56;20" dur="1.4s" repeatCount="indefinite"/><animate attributeName="y" values="-10;-28;-10" dur="1.4s" repeatCount="indefinite"/></rect>
-        <rect x="14"  y="-18" width="5" height="36" rx="2.5"><animate attributeName="height" values="36;14;36" dur="1.7s" repeatCount="indefinite"/><animate attributeName="y" values="-18;-7;-18"  dur="1.7s" repeatCount="indefinite"/></rect>
-        <rect x="28"  y="-26" width="5" height="52" rx="2.5"><animate attributeName="height" values="52;22;52" dur="1.2s" repeatCount="indefinite"/><animate attributeName="y" values="-26;-11;-26" dur="1.2s" repeatCount="indefinite"/></rect>
-        <rect x="42"  y="-12" width="5" height="24" rx="2.5"><animate attributeName="height" values="24;62;24" dur="1.9s" repeatCount="indefinite"/><animate attributeName="y" values="-12;-31;-12" dur="1.9s" repeatCount="indefinite"/></rect>
-        <rect x="56"  y="-22" width="5" height="44" rx="2.5"><animate attributeName="height" values="44;18;44" dur="1.5s" repeatCount="indefinite"/><animate attributeName="y" values="-22;-9;-22"  dur="1.5s" repeatCount="indefinite"/></rect>
-        <rect x="70"  y="-8"  width="5" height="16" rx="2.5"><animate attributeName="height" values="16;48;16" dur="1.3s" repeatCount="indefinite"/><animate attributeName="y" values="-8;-24;-8"   dur="1.3s" repeatCount="indefinite"/></rect>
-        <rect x="84"  y="-30" width="5" height="60" rx="2.5"><animate attributeName="height" values="60;20;60" dur="1.8s" repeatCount="indefinite"/><animate attributeName="y" values="-30;-10;-30" dur="1.8s" repeatCount="indefinite"/></rect>
-        <rect x="98"  y="-14" width="5" height="28" rx="2.5"><animate attributeName="height" values="28;54;28" dur="1.6s" repeatCount="indefinite"/><animate attributeName="y" values="-14;-27;-14" dur="1.6s" repeatCount="indefinite"/></rect>
-        <rect x="112" y="-20" width="5" height="40" rx="2.5"><animate attributeName="height" values="40;16;40" dur="1.1s" repeatCount="indefinite"/><animate attributeName="y" values="-20;-8;-20"  dur="1.1s" repeatCount="indefinite"/></rect>
-        <rect x="126" y="-10" width="5" height="20" rx="2.5"><animate attributeName="height" values="20;50;20" dur="2.0s" repeatCount="indefinite"/><animate attributeName="y" values="-10;-25;-10" dur="2.0s" repeatCount="indefinite"/></rect>
-        <rect x="140" y="-24" width="5" height="48" rx="2.5"><animate attributeName="height" values="48;24;48" dur="1.45s" repeatCount="indefinite"/><animate attributeName="y" values="-24;-12;-24" dur="1.45s" repeatCount="indefinite"/></rect>
-        <rect x="154" y="-16" width="5" height="32" rx="2.5"><animate attributeName="height" values="32;58;32" dur="1.75s" repeatCount="indefinite"/><animate attributeName="y" values="-16;-29;-16" dur="1.75s" repeatCount="indefinite"/></rect>
-      </g>
-    </g>
-
-    <!-- bottom accent bar -->
-    <rect x="0" y="256" width="1000" height="4" fill="url(#accent)" opacity="0.9"/>
-    <rect x="0" y="256" width="220" height="4" fill="#BFE6FF" opacity="0.85">
-      <animate attributeName="x" values="-220;1000" dur="4.5s" repeatCount="indefinite"/>
-    </rect>
+    <rect x="0" y="227" width="1000" height="3" fill="url(#accent)" opacity="0.8"/>
   </g>
 </svg>

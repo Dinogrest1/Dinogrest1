@@ -3,10 +3,6 @@
 
 <img src="https://raw.githubusercontent.com/Dinogrest1/Dinogrest1/main/assets/header.svg" width="100%" alt="Bogdan Tovstenko — AI Engineer, Automation Specialist, Generative AI" />
 
-<br/><br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1100&color=4A90D9&center=true&vCenter=true&width=780&height=42&lines=I+automate+what+shouldn't+be+done+by+hand;LLM+pipelines+%C2%B7+n8n+%C2%B7+agentic+systems;Ad+analytics+on+Gemini+%2B+Meta+Marketing+API;Self-hosted+generative+media+with+ComfyUI" alt="What I do" />
-
 <br/>
 
 <img src="https://img.shields.io/badge/Kyiv-Ukraine-0F2027?style=for-the-badge&logo=googlemaps&logoColor=7FD1FF&labelColor=0D1117" alt="Kyiv, Ukraine" />
@@ -18,19 +14,18 @@
 
 <!-- ════════════════════════════ ABOUT ════════════════════════════ -->
 
-## `$ whoami`
+## About
 
-```yaml
-name:      Bogdan Tovstenko
-role:      AI Engineer & Automation Specialist @ Kyiv-Mohyla Business School
-studying:  MSc — AI Technologies in Biomedical Systems, Igor Sikorsky KPI
-focus:
-  - turning manual business processes into unattended pipelines
-  - LLM systems with structured output, validation and real guardrails
-  - marketing automation: ad analytics in, generated creatives out
-  - self-hosted generative media on open-weight models
-languages: [Ukrainian (native), English (B2)]
-```
+**AI Engineer & Automation Specialist** at Kyiv-Mohyla Business School, currently an MSc student in Artificial Intelligence Technologies in Biomedical Systems at Igor Sikorsky KPI.
+
+What I focus on:
+
+- turning manual business processes into unattended pipelines
+- LLM systems with structured output, validation and real guardrails
+- marketing automation: ad analytics in, generated creatives out
+- self-hosted generative media on open-weight models
+
+Ukrainian (native) · English (B2).
 
 I build **end-to-end automation** — the kind where nobody opens a dashboard anymore. Most of my work joins three things that usually live apart: **LLM APIs**, **external platforms** (ad networks, messengers, storage) and **internal CRM/SQL data**. Right now that means a closed marketing loop: a system that diagnoses ad performance, and a generative pipeline that produces the next batch of creatives from that diagnosis.
 
@@ -38,7 +33,7 @@ I build **end-to-end automation** — the kind where nobody opens a dashboard an
 
 <!-- ════════════════════════════ STACK ════════════════════════════ -->
 
-## `$ ls ~/stack`
+## Stack
 
 <table>
 <tr>
@@ -90,7 +85,7 @@ I build **end-to-end automation** — the kind where nobody opens a dashboard an
 
 <!-- ════════════════════════════ PROJECTS ════════════════════════════ -->
 
-## `$ git log --oneline projects`
+## Projects
 
 <table>
 <tr>
@@ -196,7 +191,7 @@ Self-hosted creative production on open-weight models. Custom ComfyUI graphs for
 
 <!-- ════════════════════════════ STATS ════════════════════════════ -->
 
-## `$ gh repo list`
+## Repositories
 
 <div align="center">
 
@@ -223,7 +218,7 @@ Self-hosted creative production on open-weight models. Custom ComfyUI graphs for
 
 <!-- ════════════════════════════ CONTACT ════════════════════════════ -->
 
-## `$ contact --me`
+## Contact
 
 <div align="center">
 

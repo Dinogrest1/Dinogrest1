@@ -5,19 +5,10 @@
       <stop offset="0%" stop-color="#070d18"/>
       <stop offset="100%" stop-color="#0e1f33"/>
     </linearGradient>
-    <linearGradient id="sglint" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#BFE6FF" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.5"/>
-      <stop offset="100%" stop-color="#BFE6FF" stop-opacity="0"/>
-    </linearGradient>
     <clipPath id="sframe"><rect width="1000" height="232" rx="14"/></clipPath>
     <style>
       .m { font-family:'JetBrains Mono','SFMono-Regular',Consolas,Menlo,monospace; }
       .s { font-family:'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif; }
-      @keyframes fadeUp { from { opacity:0 } to { opacity:1 } }
-      .f1 { animation: fadeUp .6s ease both .10s }
-      .f2 { animation: fadeUp .6s ease both .25s }
-      .f3 { animation: fadeUp .6s ease both .40s }
     </style>
   </defs>
   <g clip-path="url(#sframe)">
@@ -27,72 +18,48 @@
     <text class="m" x="28" y="34" font-size="13" fill="#4A90D9" letter-spacing="3">REPOSITORY COMPOSITION</text>
     <text class="m" x="972" y="34" font-size="11" fill="#5d7fa5" text-anchor="end" letter-spacing="1.2">public + private · generated from the GitHub API</text>
     <line x1="302" y1="58" x2="302" y2="206" stroke="#4A90D9" stroke-opacity="0.22"/>
-    <g class="f1">
+    <g>
       <text class="s" x="28" y="76" font-size="30" font-weight="700" fill="#FFFFFF">14</text>
       <text class="s" x="80" y="76" font-size="13" fill="#9EC9F0">repositories</text>
       <text class="m" x="28" y="93" font-size="10.5" fill="#5d7fa5">3 public · 11 private</text>
     </g>
-    <g class="f2">
+    <g>
       <text class="s" x="28" y="132" font-size="30" font-weight="700" fill="#FFFFFF">10</text>
       <text class="s" x="80" y="132" font-size="13" fill="#9EC9F0">with a primary language</text>
       <text class="m" x="28" y="149" font-size="10.5" fill="#5d7fa5">4 languages in total</text>
     </g>
-    <g class="f3">
+    <g>
       <text class="s" x="28" y="188" font-size="21" font-weight="700" fill="#FFFFFF">Nov 2023</text>
       <text class="s" x="144" y="188" font-size="13" fill="#9EC9F0">first repository</text>
       <text class="m" x="28" y="205" font-size="10.5" fill="#5d7fa5">building here ever since</text>
     </g>
-    <g class="f1">
+    <g>
       <circle cx="335" cy="62" r="4.5" fill="#3178c6"/>
       <text class="s" x="348" y="66" font-size="13" font-weight="600" fill="#D7E7F7">TypeScript</text>
       <text class="m" x="972" y="66" font-size="12" fill="#9EC9F0" text-anchor="end">40%  ·  4 repos</text>
       <rect x="330" y="74" width="642" height="9" rx="4.5" fill="#FFFFFF" fill-opacity="0.06"/>
-      <rect x="330" y="74" width="257" height="9" rx="4.5" fill="#3178c6">
-        <animate attributeName="width" from="0" to="257" dur="1.1s" begin="0.35s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.7 0.3 1"/>
-      </rect>
-      <rect x="330" y="74" width="54" height="9" rx="4.5" fill="url(#sglint)" opacity="0">
-        <animate attributeName="x" from="330" to="533" dur="2.4s" begin="1.45s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;0.9;0" dur="2.4s" begin="1.45s" repeatCount="indefinite"/>
-      </rect>
+      <rect x="330" y="74" width="257" height="9" rx="4.5" fill="#3178c6"/>
     </g>
-    <g class="f2">
+    <g>
       <circle cx="335" cy="102" r="4.5" fill="#e34c26"/>
       <text class="s" x="348" y="106" font-size="13" font-weight="600" fill="#D7E7F7">HTML</text>
       <text class="m" x="972" y="106" font-size="12" fill="#9EC9F0" text-anchor="end">40%  ·  4 repos</text>
       <rect x="330" y="114" width="642" height="9" rx="4.5" fill="#FFFFFF" fill-opacity="0.06"/>
-      <rect x="330" y="114" width="257" height="9" rx="4.5" fill="#e34c26">
-        <animate attributeName="width" from="0" to="257" dur="1.1s" begin="0.48s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.7 0.3 1"/>
-      </rect>
-      <rect x="330" y="114" width="54" height="9" rx="4.5" fill="url(#sglint)" opacity="0">
-        <animate attributeName="x" from="330" to="533" dur="2.4s" begin="1.58s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;0.9;0" dur="2.4s" begin="1.58s" repeatCount="indefinite"/>
-      </rect>
+      <rect x="330" y="114" width="257" height="9" rx="4.5" fill="#e34c26"/>
     </g>
-    <g class="f3">
+    <g>
       <circle cx="335" cy="142" r="4.5" fill="#3572A5"/>
       <text class="s" x="348" y="146" font-size="13" font-weight="600" fill="#D7E7F7">Python</text>
       <text class="m" x="972" y="146" font-size="12" fill="#9EC9F0" text-anchor="end">10%  ·  1 repo</text>
       <rect x="330" y="154" width="642" height="9" rx="4.5" fill="#FFFFFF" fill-opacity="0.06"/>
-      <rect x="330" y="154" width="64" height="9" rx="4.5" fill="#3572A5">
-        <animate attributeName="width" from="0" to="64" dur="1.1s" begin="0.61s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.7 0.3 1"/>
-      </rect>
-      <rect x="330" y="154" width="54" height="9" rx="4.5" fill="url(#sglint)" opacity="0">
-        <animate attributeName="x" from="330" to="340" dur="2.4s" begin="1.71s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;0.9;0" dur="2.4s" begin="1.71s" repeatCount="indefinite"/>
-      </rect>
+      <rect x="330" y="154" width="64" height="9" rx="4.5" fill="#3572A5"/>
     </g>
-    <g class="f3">
+    <g>
       <circle cx="335" cy="182" r="4.5" fill="#A97BFF"/>
       <text class="s" x="348" y="186" font-size="13" font-weight="600" fill="#D7E7F7">Kotlin</text>
       <text class="m" x="972" y="186" font-size="12" fill="#9EC9F0" text-anchor="end">10%  ·  1 repo</text>
       <rect x="330" y="194" width="642" height="9" rx="4.5" fill="#FFFFFF" fill-opacity="0.06"/>
-      <rect x="330" y="194" width="64" height="9" rx="4.5" fill="#A97BFF">
-        <animate attributeName="width" from="0" to="64" dur="1.1s" begin="0.74s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.7 0.3 1"/>
-      </rect>
-      <rect x="330" y="194" width="54" height="9" rx="4.5" fill="url(#sglint)" opacity="0">
-        <animate attributeName="x" from="330" to="340" dur="2.4s" begin="1.84s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;0.9;0" dur="2.4s" begin="1.84s" repeatCount="indefinite"/>
-      </rect>
+      <rect x="330" y="194" width="64" height="9" rx="4.5" fill="#A97BFF"/>
     </g>
   </g>
 </svg>
