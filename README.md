@@ -45,4 +45,4 @@ Also: n8n · Google Gemini API · Meta Marketing API · OpenRouter · ComfyUI ·
 ### Contact
 
 <!-- TODO: підстав свої реальні посилання -->
-[LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN/) · [Telegram]() · [Email](mailto:YOUR-EMAIL)
+[LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN/) · [Telegram](https://t.me/bogdein1) · [Email](mailto:YOUR-EMAIL)
